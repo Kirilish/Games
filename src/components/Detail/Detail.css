@@ -1,0 +1,17 @@
+.card-info{
+    display: flex;
+    margin: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img img{
+    width: 900px;
+    height: 600px;
+}
+
+.card-text{
+    width: 900px;
+    text-align: center;
+}
