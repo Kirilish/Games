@@ -1,18 +1,38 @@
 .game-img img{
     width: 300px;
     height: 200px;
-    border-radius: 20px;
 }
 
 .card-wrapper{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: fit-content;
+    overflow: hidden;
     font-size: 18px;
-    border-radius: 50px;
-    background: linear-gradient(to bottom, #6699ff 0%, #ff9966 100%);
-    border: 1px solid black;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #5c5c5c,#333333,#000000,#000000,#000000);
+    color: white;
+    transition-duration: .4s;
+}
+
+.rating{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-wrapper:hover{
+    transform: scale(1.05);
 }
 
 .card-name{
-    font-weight: 600;
+    font-weight: 900;
+    text-decoration: none;
 }
